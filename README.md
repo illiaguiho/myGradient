@@ -1,6 +1,7 @@
 # myGradient
 myGradient is a CSS linear-gradient picker using JavaScript events. It's a simple project that can be useful for web, UI, UX designers or other fan of gradients. This is only a minimal version therefore there are not many possibilities as to the direction or angle of the gradient. An update will be done in the coming days if I do not forget of course.
 I am open to any suggestion, criticism or advice.
+
 Live Site URL: [my-gradient](my-gradient.vercel.app)
 
 ## Author
