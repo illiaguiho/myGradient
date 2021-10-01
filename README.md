@@ -7,4 +7,4 @@ Live Site URL: [my-gradient](my-gradient.vercel.app)
 ## Author
 My name is Elivi Guiho I'm a 21yo and I'm currently studying computer networks but I would like to work as a web/app developer so I'm learning both and as I progress, I do a few projects to test myself and I publish them here.
 You can find me here (if you want 😅):
-[instagram](https://www.instagram.com/notelivi)
+[@notelivi](https://www.instagram.com/notelivi)
