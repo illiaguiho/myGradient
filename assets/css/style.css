@@ -1,0 +1,134 @@
+/*
+    Project Name: myGradient
+    Location: Dakar, SENEGAL
+    Date of creation: 30th September 2021
+    Author: Elivi GUIHO
+    Last Update: 1st October 2021 | 10:56:09
+*/
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #F7F7FF;
+  color: #1f1f1f;
+  text-align: center;
+}
+
+/* Displays */
+.container, .title, .colors{
+  display: flex;
+}
+
+.container{
+  width: 100%;
+  justify-content: center;
+}
+
+.content{
+  margin-top: 80px;
+}
+
+/* Preview card */
+.preview{
+  width: 500px;
+  height: 250px;
+  background: linear-gradient(to right, #0844F7, #FA1E1E);
+  box-shadow: 0 8px 40px rgba(0,0,0,.3);
+  border-radius: 5px;
+  margin: auto;
+}
+
+/* Title */
+.title{
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.title a{
+  text-decoration: none;
+  margin-top: -10px;
+  transition: .8s ease-out;
+}
+
+.title a:hover{
+  text-decoration: underline;
+}
+
+.info{
+  width: 70%;
+  display: none;
+  transition: .8s ease-out;
+}
+
+/* Color inputs */
+
+.colors{
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.colors input{
+  width: 100px;
+  height: 28px;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,.3);
+  cursor: pointer;
+}
+
+/* Css linear-gradient code */
+
+.css-code{
+  display: flex;
+  justify-content: center;
+}
+
+.css-code p{
+  padding-left: 5px;
+}
+
+/* Icons */
+.fas, .far{
+  margin-top: 18px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #1f1f1f;
+}
+
+/* Copyright */
+.copyright{
+  margin-top: 20px;
+}
+
+.author{
+  text-decoration: none;
+  color: #1f1f1f;
+  font-weight: bold;
+}
+
+.author:hover{
+  text-decoration: underline;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+  .content{
+    margin: 0;
+    padding: 20px;
+  }
+  .info{
+    width: auto;
+  }
+  .preview{
+    width: auto;
+    height: 400px;
+  }
+  .copyright{
+    margin: 0;
+    margin-top: 10px;
+  }
+}

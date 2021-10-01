@@ -1,0 +1,87 @@
+<!--
+    Project Name: myGradient
+    Location: Dakar, SENEGAL
+    Date of creation: 30th September 2021
+    Author: Elivi GUIHO
+    Last Update: 1st October 2021 | 10:57:03
+  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Fonts and stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/ico" href="icon.ico">
+  <!-- //Fonts and stylesheets -->
+  <title>myGradient | Homepage</title>
+</head>
+<body>
+
+  <!-- Container -->
+  <div class="container" role="container">
+
+    <!-- Main content -->
+    <div class="content">
+
+      <!-- title and info section -->
+      <div class="title">
+        <h1>Choose your gradient</h1>
+        <a href="#" id="show-info">How to use?</a>
+        <a href="#" id="close-info" class="info">Close</a>
+        <p class="info" id="info">Use the buttons at the bottom to modify the colors
+           of the gradient and copy in one click the css code located below.</p>
+      </div>
+      <!-- //title and info section -->
+
+      <!-- Linear gradient preview card -->
+      <div class="preview" id="preview-card">
+
+      </div>
+      <!-- //Linear gradient preview card -->
+
+      <!-- Colors section -->
+      <div class="colors">
+        <div class="color">
+          <input type="color" name="color1" id="first-color" value="#0844F7">
+        </div>
+
+      <!--
+        Coming Soon
+          <div class="change-direction">
+              <a href="#">change direction</a>
+            </div>
+      -->
+
+        <div class="color">
+          <input type="color" name="color2" id="second-color" value="#FA1E1E">
+        </div>
+      </div>
+      <!-- //Colors section -->
+
+      <!-- Css code -->
+      <div class="css-code">
+        <p class="fas fa-check" id="done"></p><p class="far fa-copy" id="copy"></p><p id="css-code" title="css code"></p>
+      </div>
+      <!-- //Css code -->
+
+      <!-- Copyright -->
+      <p class="copyright">&copy; myGradient 2021, by <a href="https://www.github.com/illiaguiho" title="author" target="_blank" class="author">Elivi Guiho</a></p>
+      <!-- //Copyright -->
+
+    </div>
+    <!-- //Main content -->
+
+  </div>
+  <!-- //Container -->
+
+  <!-- Font Awesome cdn  & javascript file -->
+  <script src="https://kit.fontawesome.com/3667896e96.js" crossorigin="anonymous"></script>
+  <script src="assets/js/app.js"></script>
+  <!-- //Font Awesome cdn  & javascript file -->
+</body>
+</html>
